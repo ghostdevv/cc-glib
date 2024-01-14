@@ -62,6 +62,8 @@ $ neofetch
 
 ### `mine`
 
+> This command is only installed on turtles
+
 The `mine` command ([`ghostdevv/mining-turtle`](https://github.com/ghostdevv/mining-turtle)) is used to mine an area the user defines.
 
 ```bash
