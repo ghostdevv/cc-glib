@@ -1,4 +1,4 @@
-local VERSION = "0.4.0"
+local VERSION = "0.5.0"
 
 local GLIB_COMMANDS = {
     "glib",
@@ -6,7 +6,12 @@ local GLIB_COMMANDS = {
 }
 
 local GLIB_TURTLE_COMMANDS = {
-    "fuel"
+    "fuel",
+    "mine"
+}
+
+local FHOST_OVERRIDES = {
+    mine = "https://raw.githubusercontent.com/ghostdevv/mining-turtle/main/mine.lua"
 }
 
 local function downloadFile(url, dest)
@@ -37,13 +42,18 @@ elseif command == "install" or command == "update" then
     print("Installing GLib:")
 
     local function downloadCommands(commands)
-        for i, command in ipairs(commands) do
-            print("  - " .. command)
+        for i, cmd in ipairs(commands) do
+            print("  - " .. cmd)
     
-            local fPath = "/" .. command .. ".lua"
+            local fPath = "/" .. cmd .. ".lua"
     
             fs.delete(fPath)
-            downloadFile("https://raw.githubusercontent.com/ghostdevv/cc-glib/main/lib" .. fPath, fPath)
+            
+            if FHOST_OVERRIDES[cmd] then
+                downloadFile(FHOST_OVERRIDES[cmd], fPath)
+            else
+                downloadFile("https://raw.githubusercontent.com/ghostdevv/cc-glib/main/lib" .. fPath, fPath)
+            end
         end
     end
 

@@ -59,3 +59,11 @@ $ neofetch
 ```
 
 ![neofetch screenshot](./.github/neofetch.png)
+
+### `mine`
+
+The `mine` command ([`ghostdevv/mining-turtle`](https://github.com/ghostdevv/mining-turtle)) is used to mine an area the user defines.
+
+```bash
+$ mine <width> <height> <depth>
+```
