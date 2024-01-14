@@ -1,6 +1,6 @@
 local command = ...
 
-local VERSION = "0.1.0"
+local VERSION = "0.1.1"
 
 if not command or command == "help" then
     print("GLib v" .. VERSION)
@@ -24,7 +24,7 @@ elseif command == "install" then
         print("  Getting " .. file .. "...")
 
         fs.delete("/" .. file .. ".lua")
-        shell.run("wget https://github.com/ghostdevv/cc-glib/blob/main/lib/" .. file .. ".lua")
+        shell.run("wget https://raw.githubusercontent.com/ghostdevv/cc-glib/main/lib/" .. file .. ".lua")
     end
 
     print("GLib installed!")
