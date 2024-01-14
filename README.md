@@ -66,6 +66,8 @@ Fuel Level: 11157/100000
 
 The `mine` command ([`ghostdevv/mining-turtle`](https://github.com/ghostdevv/mining-turtle)) is used to mine an area the user defines.
 
+The turtle must be placed in the bottom right corner facing the direction you want to mine.
+
 ```bash
 $ mine <width> <height> <depth>
 ```
