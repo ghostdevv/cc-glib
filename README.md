@@ -20,7 +20,7 @@ glib update
 
 `update` and `install` are equivalent commands
 
-## Commands
+## Core Commands
 
 ### `glib`
 
@@ -39,17 +39,6 @@ GLib v0.2.0
     install, update    (re)install GLib
 ```
 
-### `fuel`
-
-> This command is only installed on turtles
-
-The `fuel` command simply lists out the current fuel and fuel limit.
-
-```bash
-$ fuel
-Fuel Level: 11157/100000
-```
-
 ### `neofetch`
 
 The `neofetch` command is inspired by the popular [bash based neofetch tool](https://github.com/dylanaraps/neofetch).
@@ -60,9 +49,20 @@ $ neofetch
 
 ![neofetch screenshot](./.github/neofetch.png)
 
-### `mine`
+## Turtle Commands
 
-> This command is only installed on turtles
+These commands are only installed on turtles.
+
+### `fuel`
+
+The `fuel` command simply lists out the current fuel and fuel limit.
+
+```bash
+$ fuel
+Fuel Level: 11157/100000
+```
+
+### `mine`
 
 The `mine` command ([`ghostdevv/mining-turtle`](https://github.com/ghostdevv/mining-turtle)) is used to mine an area the user defines.
 
