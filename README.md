@@ -41,6 +41,8 @@ GLib v0.2.0
 
 ### `fuel`
 
+> This command is only installed on turtles
+
 The `fuel` command simply lists out the current fuel and fuel limit.
 
 ```bash
