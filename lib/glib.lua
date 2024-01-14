@@ -1,7 +1,8 @@
-local VERSION = "0.3.0"
+local VERSION = "0.4.0"
 
 local GLIB_COMMANDS = {
-    "glib"
+    "glib",
+    "neofetch"
 }
 
 local GLIB_TURTLE_COMMANDS = {

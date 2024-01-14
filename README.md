@@ -49,3 +49,13 @@ The `fuel` command simply lists out the current fuel and fuel limit.
 $ fuel
 Fuel Level: 11157/100000
 ```
+
+### `neofetch`
+
+The `neofetch` command is inspired by the popular [bash based neofetch tool](https://github.com/dylanaraps/neofetch).
+
+```bash
+$ neofetch
+```
+
+![neofetch screenshot](./.github/neofetch.png)
