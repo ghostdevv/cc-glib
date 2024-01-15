@@ -1,4 +1,5 @@
 {
+    "$schema": "https://raw.githubusercontent.com/ghostdevv/cc-carl/main/packages/schema/json-schema/repository.json",
     "name": "glib",
     "packages": [
         {
