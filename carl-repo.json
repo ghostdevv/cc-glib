@@ -45,6 +45,17 @@
                     "url": "https://raw.githubusercontent.com/ghostdevv/cc-glib/main/lib/cat.lua"
                 }
             ]
+        },
+        {
+            "name": "touch",
+            "version": "0.1.0",
+            "cli": "touch.lua",
+            "files": [
+                {
+                    "path": "touch.lua",
+                    "url": "https://raw.githubusercontent.com/ghostdevv/cc-glib/main/lib/cat.lua"
+                }
+            ]
         }
     ]
 }

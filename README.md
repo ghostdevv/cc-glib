@@ -57,6 +57,14 @@ The `cat` command can be used to read the contents of a file, it will also displ
 $ cat <file>
 ```
 
+### `touch`
+
+Create empty file(s) quickly with touch.
+
+```bash
+$ touch <file...>
+```
+
 ## Turtle Commands
 
 These commands are only installed on turtles.
