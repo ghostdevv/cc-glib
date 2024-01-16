@@ -49,6 +49,14 @@ $ neofetch
 
 ![neofetch screenshot](./.github/neofetch.png)
 
+### `cat`
+
+The `cat` command can be used to read the contents of a file, it will also display some helpful information such as it's line count and size.
+
+```bash
+$ cat <file>
+```
+
 ## Turtle Commands
 
 These commands are only installed on turtles.

@@ -34,6 +34,17 @@
                     "url": "https://raw.githubusercontent.com/ghostdevv/mining-turtle/main/mine.lua"
                 }
             ]
+        },
+        {
+            "name": "cat",
+            "version": "0.1.0",
+            "cli": "cat.lua",
+            "files": [
+                {
+                    "path": "cat.lua",
+                    "url": "https://raw.githubusercontent.com/ghostdevv/cc-glib/main/lib/cat.lua"
+                }
+            ]
         }
     ]
 }
