@@ -1,4 +1,4 @@
-local VERSION = "0.5.0"
+local VERSION = "0.7.0"
 
 local GLIB_COMMANDS = {
     "glib",
@@ -18,10 +18,10 @@ local FHOST_OVERRIDES = {
 
 local function downloadFile(url, dest)
     local file = fs.open(dest, "w")
-    
+
     local response = http.get(url)
     local data = response.readAll()
-    
+
     file.write(data)
     file.close()
 end
@@ -46,11 +46,11 @@ elseif command == "install" or command == "update" then
     local function downloadCommands(commands)
         for i, cmd in ipairs(commands) do
             print("  - " .. cmd)
-    
+
             local fPath = "/" .. cmd .. ".lua"
-    
+
             fs.delete(fPath)
-            
+
             if FHOST_OVERRIDES[cmd] then
                 downloadFile(FHOST_OVERRIDES[cmd], fPath)
             else
