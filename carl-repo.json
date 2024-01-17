@@ -37,7 +37,7 @@
         },
         {
             "name": "cat",
-            "version": "0.1.0",
+            "version": "0.1.1",
             "cli": "cat.lua",
             "files": [
                 {

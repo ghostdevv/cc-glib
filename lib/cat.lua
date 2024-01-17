@@ -14,6 +14,7 @@ local file = fs.open(file_path, "r")
 local contents = file.readAll() or ""
 
 local _, line_count = contents:gsub("\n", "\n")
+line_count = math.max(line_count, 1)
 
 -- * Print file info
 
