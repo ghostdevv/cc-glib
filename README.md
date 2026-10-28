@@ -64,5 +64,5 @@ $ mine <width> <height> <depth>
 Used to show an image on a monitor.
 
 ```bash
-$ dimage [map.qoi]
+$ dimage [image.qoi]
 ```

@@ -6,7 +6,7 @@ local tf = require("tf")
 local file = ...
 
 if file == nil then
-    file = "file.qoi"
+    file = "image.qoi"
 end
 
 if not fs.exists(file) then
