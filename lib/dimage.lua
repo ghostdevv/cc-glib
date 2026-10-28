@@ -27,9 +27,7 @@ monitor.setCursorPos(1, 1)
 --- @param message string
 local function log(message)
     tf.print(message)
-    local prev = term.redirect(monitor)
-    tf.print(message)
-	term.redirect(prev)
+    tf.print(message, monitor)
 end
 
 log("Loading image...")
