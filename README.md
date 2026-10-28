@@ -1,43 +1,12 @@
 # CC GLib
 
-A standard set of libraries/tools for CC Tweaked.
-
-## Install
-
-The following command will install the latest version of glib:
+Most of my computer craft stuff packaged up in a way useful to me, and occasionally you (I hope)
 
 ```bash
-wget run https://raw.githubusercontent.com/ghostdevv/cc-glib/main/lib/glib.lua install
+carl repo add https://raw.githubusercontent.com/ghostdevv/cc-glib/refs/heads/main/carl-repo.json
 ```
-
-## Updating
-
-You can simply run:
-
-```bash
-glib update
-```
-
-`update` and `install` are equivalent commands
 
 ## Core Commands
-
-### `glib`
-
-The primary glib command which allows you to interact/manage the library.
-
-```bash
-$ glib help
-GLib v0.2.0
-
-  Usage
-    glib <command>
-
-  Available Commands
-    help               Show this help message
-    version            Get the current version of GLib
-    install, update    (re)install GLib
-```
 
 ### `neofetch`
 
@@ -86,4 +55,14 @@ The turtle must be placed in the bottom left corner facing the direction you wan
 
 ```bash
 $ mine <width> <height> <depth>
+```
+
+## Monitors
+
+### `map`
+
+Used to show a map, or really any image, on a monitor
+
+```bash
+$ map [map.qoi]
 ```
