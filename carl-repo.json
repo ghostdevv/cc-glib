@@ -64,7 +64,7 @@
 			"files": [
 				{
 					"path": "dimage.lua",
-					"url": "https://raw.githubusercontent.com/ghostdevv/cc-glib/main/lib/map.lua"
+					"url": "https://raw.githubusercontent.com/ghostdevv/cc-glib/main/lib/dimage.lua"
 				}
 			]
 		}
