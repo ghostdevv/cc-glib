@@ -34,7 +34,7 @@ end
 
 log("Loading image...")
 
-local image = MediaParser:open("map.qoi")
+local image = MediaParser:open(map)
 assert(image, "image failed to load")
 
 log("Finding palette...")
