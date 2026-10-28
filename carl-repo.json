@@ -53,7 +53,7 @@
 			"files": [
 				{
 					"path": "touch.lua",
-					"url": "https://raw.githubusercontent.com/ghostdevv/cc-glib/main/lib/cat.lua"
+					"url": "https://raw.githubusercontent.com/ghostdevv/cc-glib/main/lib/touch.lua"
 				}
 			]
 		}
