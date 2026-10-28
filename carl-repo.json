@@ -1,61 +1,61 @@
 {
-    "$schema": "https://raw.githubusercontent.com/ghostdevv/cc-carl/main/packages/schema/json-schema/repository.json",
-    "name": "glib",
-    "packages": [
-        {
-            "name": "neofetch",
-            "version": "0.1.0",
-            "cli": "neofetch.lua",
-            "files": [
-                {
-                    "path": "neofetch.lua",
-                    "url": "https://raw.githubusercontent.com/ghostdevv/cc-glib/main/lib/neofetch.lua"
-                }
-            ]
-        },
-        {
-            "name": "fuel",
-            "version": "0.1.0",
-            "cli": "fuel.lua",
-            "files": [
-                {
-                    "path": "fuel.lua",
-                    "url": "https://raw.githubusercontent.com/ghostdevv/cc-glib/main/lib/fuel.lua"
-                }
-            ]
-        },
-        {
-            "name": "mine",
-            "version": "0.2.1",
-            "cli": "mine.lua",
-            "files": [
-                {
-                    "path": "mine.lua",
-                    "url": "https://raw.githubusercontent.com/ghostdevv/mining-turtle/main/mine.lua"
-                }
-            ]
-        },
-        {
-            "name": "cat",
-            "version": "0.1.1",
-            "cli": "cat.lua",
-            "files": [
-                {
-                    "path": "cat.lua",
-                    "url": "https://raw.githubusercontent.com/ghostdevv/cc-glib/main/lib/cat.lua"
-                }
-            ]
-        },
-        {
-            "name": "touch",
-            "version": "0.1.0",
-            "cli": "touch.lua",
-            "files": [
-                {
-                    "path": "touch.lua",
-                    "url": "https://raw.githubusercontent.com/ghostdevv/cc-glib/main/lib/cat.lua"
-                }
-            ]
-        }
-    ]
+	"$schema": "https://raw.githubusercontent.com/ghostdevv/cc-carl/main/packages/schema/json-schema/repository.json",
+	"name": "glib",
+	"packages": [
+		{
+			"name": "neofetch",
+			"version": "0.1.0",
+			"cli": "neofetch.lua",
+			"files": [
+				{
+					"path": "neofetch.lua",
+					"url": "https://raw.githubusercontent.com/ghostdevv/cc-glib/main/lib/neofetch.lua"
+				}
+			]
+		},
+		{
+			"name": "fuel",
+			"version": "0.1.0",
+			"cli": "fuel.lua",
+			"files": [
+				{
+					"path": "fuel.lua",
+					"url": "https://raw.githubusercontent.com/ghostdevv/cc-glib/main/lib/fuel.lua"
+				}
+			]
+		},
+		{
+			"name": "mine",
+			"version": "0.2.1",
+			"cli": "mine.lua",
+			"files": [
+				{
+					"path": "mine.lua",
+					"url": "https://raw.githubusercontent.com/ghostdevv/mining-turtle/main/mine.lua"
+				}
+			]
+		},
+		{
+			"name": "cat",
+			"version": "0.1.1",
+			"cli": "cat.lua",
+			"files": [
+				{
+					"path": "cat.lua",
+					"url": "https://raw.githubusercontent.com/ghostdevv/cc-glib/main/lib/cat.lua"
+				}
+			]
+		},
+		{
+			"name": "touch",
+			"version": "0.1.0",
+			"cli": "touch.lua",
+			"files": [
+				{
+					"path": "touch.lua",
+					"url": "https://raw.githubusercontent.com/ghostdevv/cc-glib/main/lib/cat.lua"
+				}
+			]
+		}
+	]
 }
