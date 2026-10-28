@@ -5,7 +5,7 @@ local tf = require("tf")
 
 local map = ...
 
-if not type(map) == "string" then
+if map == nil then
     map = "map.qoi"
 end
 
