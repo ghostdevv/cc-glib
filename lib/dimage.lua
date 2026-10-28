@@ -3,14 +3,14 @@ local PixelBoxCombinator = require("combox.combinators.PixelBoxCombinator"):new(
 local MediaParser = require "combox.MediaParser"
 local tf = require("tf")
 
-local map = ...
+local file = ...
 
-if map == nil then
-    map = "map.qoi"
+if file == nil then
+    file = "file.qoi"
 end
 
-if not fs.exists(map) then
-    print("Can't find file: \"" .. map .. "\"")
+if not fs.exists(file) then
+    print("Can't find file: \"" .. file .. "\"")
     return
 end
 
@@ -34,7 +34,7 @@ end
 
 log("Loading image...")
 
-local image = MediaParser:open(map)
+local image = MediaParser:open(file)
 assert(image, "image failed to load")
 
 log("Finding palette...")

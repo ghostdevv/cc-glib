@@ -59,10 +59,10 @@ $ mine <width> <height> <depth>
 
 ## Monitors
 
-### `map`
+### `dimage`
 
-Used to show a map, or really any image, on a monitor
+Used to show an image on a monitor.
 
 ```bash
-$ map [map.qoi]
+$ dimage [map.qoi]
 ```

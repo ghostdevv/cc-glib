@@ -58,12 +58,12 @@
 			]
 		},
 		{
-			"name": "map",
-			"version": "0.1.2",
-			"cli": "map.lua",
+			"name": "dimage",
+			"version": "0.2.0",
+			"cli": "dimage.lua",
 			"files": [
 				{
-					"path": "map.lua",
+					"path": "dimage.lua",
 					"url": "https://raw.githubusercontent.com/ghostdevv/cc-glib/main/lib/map.lua"
 				}
 			]
